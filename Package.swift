@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
   name: "DIKit",
   platforms: [
-      .macOS(.v10_11), .iOS(.v12), .tvOS(.v9), .watchOS(.v2)
+      .macOS(.v10_11), .iOS(.v11), .tvOS(.v9), .watchOS(.v2)
   ],
   products: [
     .library(name: "DIKit", targets: ["DIKit"]),
